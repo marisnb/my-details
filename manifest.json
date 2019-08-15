@@ -1,0 +1,14 @@
+{
+  "manifest_version" : 2,
+  "name" : "My Details",
+  "version" : "0.0.1",
+  "description" : "Details about IP",
+  "icons" : { "128" : "icon_128.png"},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup" : "popup.html"
+  },
+  "version_name" : "Beta",
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' https://ipapi.co/json/; object-src 'self'"
+}
